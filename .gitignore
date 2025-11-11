@@ -1,0 +1,6 @@
+.info
+.todo
+.env
+*.info
+*.todo
+*.env
