@@ -14,7 +14,7 @@
     border: 1px solid var(--color-4);
 }
 
-.window-1 .main-info {
+.main-info {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -23,7 +23,7 @@
     gap: 0.4rem;
 }
 
-.window-1 .logo-container-1 {
+.logo-container-1 {
     width: 20%;
     height: auto;
     border: 0.4rem; 
@@ -36,13 +36,13 @@
     border-radius: 8px;
 }
 
-.window-1 .main-name span {
+.main-name span {
     font-size: 1.2rem;
     color: var(--color-4);
     font-weight: 500;
 }
 
-.window-1 .main-name h1 {
+.main-name h1 {
     font-size: 1.4rem;
     color: var(--color-4);
     font-weight: 650;
@@ -58,36 +58,4 @@
 .window-1 .logo img {
     width: 100%;
     animation: rotate 8s infinite linear;
-}
-
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-@media (max-width: 372px) {
-    .window-1 .dev-name h1 {
-        font-size: 1.2rem;
-        font-weight: 650;
-    }
-
-    .window-1 .dev-name span {
-        font-size: 0.8rem;
-    }
-
-    .window-1 .logo {
-        width: 35px;
-        display: flex;
-        justify-content: right;
-        align-items: center;
-    }
-
-    .window-1 .logo img {
-        width: 100%;
-    }
 }
