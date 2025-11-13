@@ -12,6 +12,10 @@ body {
     min-height: 100vh;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    background-image: url('../../static/svgs/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .main {

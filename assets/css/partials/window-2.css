@@ -14,3 +14,8 @@
     justify-content: center;
 }
 
+.window-2-content p {
+    font-size: 1.2em;
+    font-weight: 550;
+    color: var(--color-4);
+}
