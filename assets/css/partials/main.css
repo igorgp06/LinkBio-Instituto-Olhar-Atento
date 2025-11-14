@@ -3,7 +3,6 @@
 /* main */
 
 body {
-    /* font-family: var(--principal); TODO: ajustar fonte */
     display: flex;
     align-items: center;
     justify-content: center;
