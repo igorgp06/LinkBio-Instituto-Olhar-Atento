@@ -7,7 +7,7 @@
     height: 12%;
     border-radius: 12px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0.2rem;
 }
@@ -24,4 +24,6 @@
 .window-3-content h2 {
     font-size: 1.3rem;
     color: var(--color-4);
+    text-align: center;
+    justify-content: center;
 }

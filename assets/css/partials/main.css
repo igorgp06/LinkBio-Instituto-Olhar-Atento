@@ -9,8 +9,6 @@ body {
     background-color: var(--color-5);
     width: 100%;
     min-height: 100vh;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     background-image: url('../../static/svgs/background.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,4 +32,22 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
+}
+
+/* animations */
+
+.window-1,
+.window-2,
+.window-3-content,
+.window-4,
+.window-5 {
+    transition: transform 0.4s ease-in-out;
+}
+
+.window-1:hover,
+.window-2:hover,
+.window-3-content:hover,
+.window-4:hover,
+.window-5:hover {
+    transform: translateY(-3px) scale(1.01);
 }
