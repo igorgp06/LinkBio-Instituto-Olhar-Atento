@@ -1,34 +1,36 @@
 @charset "UTF-8";
 
-/* credits */
+/* in development */
 
-.credits {
+.in-development {
     width: 100%;
-    height: 12%;
+    height: 9%;
     border-radius: 12px;
+    padding: 1rem;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 0.2rem;
+    justify-content: center;
 }
 
-.credits-text {
+.development-text {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex-direction: column;
     gap: 0.4rem;
 }
 
-.dev-credits {
-    font-size: 0.6rem;
+.development-text span {
+    font-size: 1rem;
     font-weight: 550;
+    color: var(--color-4);
 }
 
-.credits a {
-    font-size: 0.6rem;
+.development-text a {
+    font-size: 1rem;
     text-decoration: none;
     font-weight: 600;
-    color: black;
+    color: var(--color-4);
 }

@@ -26,7 +26,7 @@
 .logo-container-1 {
     width: 20%;
     height: auto;
-    border: 0.4rem; 
+    border: 0.4rem;
     display: flex;
 }
 
@@ -46,6 +46,8 @@
     font-size: 1.4rem;
     color: var(--color-4);
     font-weight: 650;
+    text-shadow: 1px 1px 1px #123f6482;
+
 }
 
 .window-1 .logo {
