@@ -40,14 +40,18 @@ body {
 .window-2,
 .window-3-content,
 .window-4,
-.window-5 {
-    transition: transform 0.4s ease-in-out;
+.window-5,
+.window-6,
+.window-7 {
+    transition: all 0.4s ease-in-out;
 }
 
 .window-1:hover,
 .window-2:hover,
 .window-3-content:hover,
 .window-4:hover,
-.window-5:hover {
+.window-5:hover,
+.window-6:hover,
+.window-7:hover {
     transform: translateY(-3px) scale(1.01);
 }
