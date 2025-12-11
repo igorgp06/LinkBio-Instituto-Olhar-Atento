@@ -22,11 +22,11 @@
 }
 
 .window-7-content h2 {
-    font-size: 1.4rem;
-    font-weight: 575;
-    color: var(--color-4);
+    font-size: 1.3rem;
+    font-weight: 650;
+    color: var(--color-2);
     text-align: center;
-    justify-content: center;
+    letter-spacing: 0.03em;
 }
 
 .window-7-text {
@@ -35,18 +35,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 0.2rem;
-    background-color: var(--color-3);
-    border-radius: 8px;
-    padding: 0.4rem;
-    border: 1px solid var(--color-4);
+    gap: 0.35rem;
+    background-color: #f5f7fb;
+    border-radius: 10px;
+    padding: 0.7rem 0.8rem;
+    border: 1px solid rgba(16, 38, 62, 0.18);
 }
 
 .window-7-content p {
-    font-size: 1.1rem;
-    font-weight: 500;
+    font-size: 0.98rem;
+    font-weight: 400;
     color: var(--color-4);
     text-align: center;
-    justify-content: center;
-
 }
