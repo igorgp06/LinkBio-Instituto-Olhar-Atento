@@ -2,11 +2,17 @@
 
 :root {
     
-    /* palheta */
     --color-1: #1d8ebb;
     --color-2: #f48e26;
     --color-3: #dde5ec;
     --color-4: #10263e;
     --color-5: #050816;
     
+    --surface: #f6f9fc;
+    --surface-strong: #ffffff;
+    --text-main: #10263e;
+    --text-muted: #33506d;
+    --border-soft: rgba(16, 38, 62, 0.2);
+    --shadow-card: 0 8px 24px rgba(16, 38, 62, 0.12);
+    --radius-lg: 16px;
 }

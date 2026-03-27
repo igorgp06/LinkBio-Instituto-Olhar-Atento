@@ -1,63 +1,79 @@
 @charset "UTF-8";
 
-/* main */
-
 body {
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-3);
+    background: linear-gradient(180deg, rgba(221, 229, 236, 0.92), rgba(221, 229, 236, 0.98)), url('../../static/svg/background.svg') center/cover no-repeat;
     width: 100%;
     min-height: 100vh;
-    background-image: url('../../static/svgs/background.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    padding: 0.7rem;
+    overflow-x: hidden;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: var(--text-main);
 }
 
 .main {
-    width: 100%;
-    max-width: 415px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0.4rem 0.6rem;
+    width: min(100%, 460px);
 }
 
 .main-container {
-    min-width: 300px;
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 1.3rem;
+    gap: 0.9rem;
+    padding: 0.3rem;
+}
+
+.card {
+    background-color: var(--surface);
+    border: 1px solid var(--border-soft);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-card);
 }
 
 p {
     font-size: 0.98rem;
     line-height: 1.5;
-    color: var(--color-4);
+    color: var(--color-main);
 }
 
 /* animations */
 
 .window-1,
 .window-2,
-.window-3-content,
+.window-3,
 .window-4,
 .window-5,
 .window-6,
-.window-7 {
-    transition: all 0.4s ease-in-out;
+.window-7,
+.in-development {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .window-1:hover,
 .window-2:hover,
-.window-3-content:hover,
+.window-3:hover,
 .window-4:hover,
 .window-5:hover,
 .window-6:hover,
-.window-7:hover {
-    transform: translateY(-3px) scale(1.01);
+.window-7:hover,
+.in-development:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 24px rgba(16, 38, 62, 0.16);
+}
+
+@media (max-width: 380px) {
+    body {
+        padding: 0.45rem;
+    }
+
+    .main-container {
+        gap: 0.75rem;
+    }
+
+    p {
+        font-size: 0.94rem;
+    }
 }
