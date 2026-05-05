@@ -1,19 +1,28 @@
 @charset "UTF-8";
 
 .window-3 {
-    padding: 0 0.25rem;
+    padding: 0.85rem;
 }
 
 .window-3-content {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .window-3-content h2 {
-    font-size: 1.16rem;
+    font-size: 1.25rem;
     color: var(--color-2);
     text-align: center;
     font-weight: 600;
+}
+
+.window-3-content p {
+    font-size: 1rem;
+    color: var(--text-main);
+    margin-top: 0.45rem;
+    text-align: center;
 }
