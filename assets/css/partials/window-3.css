@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .window-3 {
-    padding: 0.85rem;
+    padding: 0.75rem;
 }
 
 .window-3-content {
@@ -25,4 +25,9 @@
     color: var(--text-main);
     margin-top: 0.45rem;
     text-align: center;
+}
+
+.window-3-content p span {
+    color: var(--color-4);
+    font-weight: 600;
 }

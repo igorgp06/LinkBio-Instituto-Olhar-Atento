@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .window-7 {
-    padding: 0.9rem;
+    padding: 0.95rem;
 }
 
 .window-7-content {
@@ -21,7 +21,7 @@
     width: 100%;
     background-color: var(--surface-strong);
     border-radius: 12px;
-    padding: 0.85rem;
+    padding: 0.95rem;
     border: 1px solid rgba(16, 38, 62, 0.16);
 }
 
